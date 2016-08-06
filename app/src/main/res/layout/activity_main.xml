@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.runtai.password.MainActivity">
+
+    <com.runtai.password.PwdInputView
+        android:id="@+id/pwd_input_view1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginTop="12dp"
+        android:cursorVisible="false"
+        android:focusableInTouchMode="true"
+        android:inputType="number"
+        android:lines="1"
+        android:maxLength="4" />
+
+    <com.runtai.password.PwdInputView
+        android:id="@+id/pwd_input_view2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginTop="12dp"
+        android:cursorVisible="false"
+        android:focusableInTouchMode="true"
+        android:inputType="number"
+        android:lines="1"
+        android:maxLength="4" />
+
+    <com.runtai.password.PwdInputView
+        android:id="@+id/pwd_input_view3"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginTop="12dp"
+        android:cursorVisible="false"
+        android:focusableInTouchMode="true"
+        android:inputType="number"
+        android:lines="1"
+        android:maxLength="6" />
+    <com.runtai.password.PwdInputView
+        android:id="@+id/pwd_input_view4"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginTop="12dp"
+        android:cursorVisible="false"
+        android:focusableInTouchMode="true"
+        android:inputType="number"
+        android:lines="1"
+        android:maxLength="6" />
+
+    <TextView
+        android:id="@+id/tv_showpwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
